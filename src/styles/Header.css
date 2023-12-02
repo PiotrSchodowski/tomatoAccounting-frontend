@@ -1,0 +1,19 @@
+.Title {
+  height: 10vh;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: #bbb;
+  padding-left: 10%;
+  transition: font-size 0.3s, color 0.3s;
+}
+.Title:hover {
+  font-size: 31px;
+  color: #eee;
+}
+.Image {
+  background-size: contain;
+  min-height: 30vh;
+  background-image: url("/src/images/pomidory_woda.jpg");
+}

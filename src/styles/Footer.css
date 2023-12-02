@@ -1,0 +1,12 @@
+.Footer {
+  margin-top: 60px;
+  background-image: url("/src/images/pom3.avif");
+  background-size: contain;
+  padding-top: 30px;
+  min-height: 265px;
+  color: #aaa;
+  font-size: 12px;
+}
+.FooterText {
+  font-size: 14px;
+}

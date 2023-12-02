@@ -1,0 +1,134 @@
+div.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  color: #bbb;
+  background-color: black;
+}
+
+header {
+  flex-basis: 40vh;
+  position: relative;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.page {
+  min-height: 30vh;
+  padding-right: 20vh;
+}
+
+aside {
+  min-width: 240px;
+}
+
+section.page {
+  flex-grow: 1;
+}
+
+footer {
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Tfoot {
+  color: rgb(143, 93, 101) !important;
+  font-size: smaller;
+  font-style: oblique;
+}
+.message {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(143, 93, 101);
+  font-weight: bold;
+  font-style: oblique;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/*************************************************************FORMY BUTTONY INPUTY*********************************************************/
+.narrow-input {
+  width: 10% !important;
+}
+.transparent-input {
+  background-color: transparent !important;
+}
+.form-inline {
+  display: inline-flex !important;
+  align-items: flex-end;
+}
+.form-control {
+  width: 200px !important;
+  margin-right: 10px !important;
+  color: #bbb !important;
+}
+.form-group label::selection {
+  outline: none !important;
+}
+.createForm {
+  color: #bbb !important;
+}
+.create-button {
+  color: #bbb !important;
+  background-color: transparent !important;
+  border: 1px solid #bbb !important;
+  padding: 6px 12px !important;
+  margin-right: 10px !important;
+}
+.delete-button {
+  color: #bbb !important;
+  font-size: small !important;
+  background-color: transparent !important;
+  border: 1px solid #bbb !important;
+  padding: 3px 8px !important;
+  margin-bottom: 5px !important;
+  height: 35px !important;
+}
+.create-button:hover {
+  background-color: #ddd !important;
+  color: #000 !important;
+}
+.delete-button:hover {
+  background-color: #ddd !important;
+  color: #000 !important;
+}
+.form-group label,
+.form-group label::selection {
+  color: #bbb !important;
+}
+/****************************************************************TABELA************************************************************/
+.transparent-table.table {
+  background-color: transparent !important;
+  border-collapse: collapse !important;
+  color: #bbb !important;
+  width: 50% !important;
+  margin: auto !important;
+  margin-top: 20px !important;
+}
+.transparent-table th,
+.transparent-table td {
+  border: 1px solid #000 !important;
+  padding: 8px !important;
+  text-align: center !important;
+  background-color: rgba(0, 0, 0, 0.1) !important; /* Dodaj tło dla komórek */
+  color: #bbb !important; /* Kolor tekstu w komórkach */
+}
+.transparent-table th {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: #bbb !important; /* Kolor tekstu nagłówków */
+}
+.transparent-table tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.transparent-table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
